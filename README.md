@@ -46,16 +46,24 @@ JWT_SECRET=your-secret-key
 NODE_ENV=development
 ```
 
-4. **Run the server**
+4. **Run the server and the client**
 
 ```bash
+cd server
+npm run dev
+```
+```bash
+cd client
 npm run dev
 ```
 
 Server will start at:
-
 ```
 http://localhost:3000
+```
+Server will start at:
+```
+http://localhost:8080
 ```
 
 ---
